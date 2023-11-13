@@ -1,0 +1,86 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background:linear-gradient(rgb(67, 203, 188),white, rgb(225, 151, 162)) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.container{
+background:url(img2.jpg);
+    height: 260px;
+    width: 350px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgb(67, 67, 67);
+    transition: 0.2s;
+    
+}
+.container:hover{
+    transform: scale(1.2);
+}
+
+/* .container {
+    max-width: 400px;
+    margin: 50px auto;
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+} */
+
+h1 {
+    color: #7a2323;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1:hover{
+    color: rgb(250, 17, 145);
+}
+h5{
+    color: rgb(125, 36, 165);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    
+}
+h5 >span{
+ color: rgb(250, 17, 145);
+ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ font-weight: bold;
+}
+h5:hover{
+    color: rgb(250, 17, 145);
+}
+h5 >span:hover{
+  color:rgb(125, 36, 165) ;  
+}
+.input-container {
+    margin-top: 20px;
+}
+
+input, select, button {
+    padding: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 25px;
+}
+
+#result {
+    margin-top: 20px;
+    color: #671250;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
